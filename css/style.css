@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+/* ==============HEADER======================== */
+.logo_liunchu{
+    width: 8rem;
+}
+
+.slider {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+  }
+
+  .slider p {
+    /* margin: 0; */
+    padding: 0 0 0 50px;
+    font-size: 24px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    color: #0F0C29;
+  }
+
+  .slider p.active {
+    opacity: 1;
+  }
+
+ /* ============banner========================= */
+ .banner-container {
+    height: 500px;
+    position: relative;
+  }
+  
+  .banner-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  /* ==========ESLOGAN=============== */
+
+  .eslogan{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: beige;
+  }
+  .eslogan p{
+    font-size: 30px;
+    color: #0F0C29
+  }
+
+  /* =========CONTENIDO=========== */
+
+  .image-section {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .image-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  .image-section td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .image-section img {
+    width: 100%;
+    max-width: 300px;
+    height: 450px;
+    display: block;
+    margin: 0 auto 10px;
+    
+  }
+  .image-section td{
+    transition: transform 0.2s ease-in-out;
+    border: none;
+
+    
+  }
+  .image-section td:hover{
+    transform: scale(0.9);
+  }
+
+  /* .image-section img:hover {
+    transform: scale(1.2);
+  } */
+  .image-section .price {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5
+  }  
+
+  /* =========footer================ */
+  footer{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color:darkgray;
+  }
+  footer a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #0F0C29;
+  }
+  
+
+
+
+ 
